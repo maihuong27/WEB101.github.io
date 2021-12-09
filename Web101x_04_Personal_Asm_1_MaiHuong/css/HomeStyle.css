@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia,serif;
+}
+header{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .title{
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+header .title a{
+    text-decoration: none;
+    color: black;
+}
+
+header .title a:hover{
+    cursor: pointer;
+}
+
+header .menu{
+    display: flex;
+    margin-right: 100px;
+    width: 30%;
+    justify-content: space-around;
+}
+
+header .menu .item a{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+header .menu .item a:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+header .menu .contactlogo a{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+header .menu .contactlogo a:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.container .myself{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 10% 10%;
+}
+
+.news{
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+
+.news .news-title{
+    font-size: 43px;
+    padding: 50px 0 50px 0;
+}
+
+.news .news-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.news .news-content .content{
+    width: 32%;
+}
+
+.news .news-content .content img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.news .news-content .content .text{
+    text-align: center;
+}
+
+.news .news-content .content .text .time{
+    color: rgb(54, 54, 54);
+    font-family: Georgia, serif;
+    font-size: 13px;
+    margin-top: 15px;
+}
+.news .news-content .content .text .link-title{
+    text-decoration: none;
+    color: black;
+}
+
+.news .news-content .content .text .title{
+    font-family: Georgia, serif;
+    font-size: 22.5px;
+    margin-top: 15px;
+}
+
+.news .news-content .content .text .description{
+    font-family: Georgia, serif;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.category{
+    display: flex;
+    width: 80%;
+    margin-top: 200px;
+    margin-left: 10%;
+}
+
+.category .item{
+    width: 32%;
+    height: 470px;
+    position: relative;
+}
+
+.category .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.category .item p{
+    position: absolute;
+    left: 3em;
+    top: 50%;
+    font-family: Georgia, serif;
+    font-size: 40px;
+}
+
+.category .item p a{
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 1px white;
+}
+
+.category .item p a:hover{
+    color: rgb(233, 233, 233);
+}
+
+.LastestVlogs{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 200px;
+}
+
+.LastestVlogs p{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.LastestVlogs .content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.LastestVlogs .content iframe{
+    width: 49%;
+}
+
+.booking{
+    width: 100%;
+    margin-top: 120px;
+    position: relative;
+}
+
+.booking img{
+    width: 100%;
+    height: 475px;
+    object-fit: cover;
+    object-position: 10% 75%;
+}
+
+.booking p{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-family: Georgia, serif;
+    font-size: 50px;
+    color: white;
+}
+
+.booking p a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    box-shadow: 0 1px white;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+}
+
+.footer .menu{
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.footer .menu a{
+    color: red;
+    text-decoration: none;
+    box-shadow: 0 1px red;
+}
+
+.footer .social-network{
+    width: 6%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.footer .social-network a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.footer .social-network a:hover{
+    color: rgb(85, 84, 84);
+}
+
+.footer .copyright{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 16px;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+
+
+
+

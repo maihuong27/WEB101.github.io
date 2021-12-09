@@ -1,0 +1,39 @@
+.container {
+	width: 30%;
+	height: 100vh;
+	margin-left: 35%;
+	background-image: url("./background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+h1 {
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+}
+
+.title {
+	text-align: center;
+	padding-top: 20px;
+}
+
+i {
+	color: yellowgreen;
+}
+span,
+p {
+	color: white;
+    font-size: 10px;
+}
+.title div{
+    display: inline;
+}
+.name span:first-child {
+	font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 18px;
+    color: slateblue;
+}
+.name span:nth-child(2){
+    color: tomato;
+}
