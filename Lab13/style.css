@@ -1,0 +1,38 @@
+body {
+	width: 100%;
+}
+
+@media all and (min-width: 700px) {
+	body {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.menu {
+		width: 40%;
+        display: flex;
+        justify-content: space-around;
+        height: 40px;
+	}
+
+	.content {
+		width: 55%;
+	}
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .item {
+    width: 20%;
+	line-height: 40px;
+	background-color: black;
+    text-align: center;
+}
+
+.menu .item a {
+	text-decoration: none;
+	color: white;
+}

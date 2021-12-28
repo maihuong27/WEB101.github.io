@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>LAB 15</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+		/>
+	</head>
+	<body>
+		<div class="topnav" id="myTopnav">
+			<a href="#" class="active">WebSiteName</a>
+			<a href="#">Page 1</a>
+			<a href="#">Page 2</a>
+			<a href="#">Page 3</a>
+			<a href="#">
+				<i class="fas fa-user-plus"></i>
+				Sign Up</a
+			>
+			<a href="#">
+				<i class="fas fa-sign-in-alt"></i>
+				Login</a
+			>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+
+		<div style="padding-left: 16px">
+			<h2>Responsive Topnav Example</h2>
+			<p>Resize the browser window to see how it works.</p>
+		</div>
+
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+				}
+			}
+		</script>
+	</body>
+</html>

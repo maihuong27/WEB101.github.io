@@ -1,0 +1,23 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.menu p{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    width: 20%;
+    color: white;
+}
+
+.menu ul{
+    width: 60%;
+    align-items: center;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: white;
+}
